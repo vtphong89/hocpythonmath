@@ -26,6 +26,9 @@ debai = ""
 for i in range(1, sobai + 1):
     a = random.choice(range(-7, 7))
     b = random.choice(range(-7, 7))
+    while a**2 + b**2 ==0:
+        a = random.choice(range(-7, 7))
+        b = random.choice(range(-7, 7))
     c = random.choice(range(-7, 7))
     while c == 0:
         c = random.choice(range(-7, 7))
