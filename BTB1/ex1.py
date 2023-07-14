@@ -18,3 +18,4 @@ def tong_lap_phuong(x):
     return tong
 
 print(tong_lap_phuong(x))
+

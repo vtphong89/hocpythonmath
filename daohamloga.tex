@@ -1,0 +1,942 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,tkz-tab}
+\usepackage{fancyhdr}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=1.5cm] {geometry}
+\usepackage[loigiai]{ex_test}
+\usetikzlibrary{calc,angles}
+\renewcommand{\TrueEX}{\stepcounter{dapan}{\small\circled{\textbf{\Alph{dapan}}}}\ignorespaces}
+\renewcommand{\FalseEX}{\stepcounter{dapan}{\small\circled{\textbf{\Alph{dapan}}}}\ignorespaces}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewtheorem{ex}{\color{blue}Câu}
+\begin{document}
+\Opensolutionfile{ansbook}[ans/LG]
+\Opensolutionfile{ans}[ans/DA]
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{Trang \thepage}
+\begin{center}
+{\bf\Large BÀI TẬP NGẪU NHIÊN}
+\end{center}
+\lhead{Biên soạn: TH.s Võ Thanh Phong}
+\rhead{THPT Huỳnh THị Hưởng}
+\lfoot{Số điện thoại 0981.011.235}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_9(-3x-1)$ là
+\choice
+{$y'=\dfrac{3}{3x+1}$}
+{\True $y'=\dfrac{3}{(3x+1)\ln 9}$}
+{$y'=\dfrac{3\ln{9}}{3x+1}$}
+{$y'=\dfrac{3}{\ln{9}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+1)\ln 9}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{13}(-x)$ là
+\choice
+{$y'=\dfrac{1}{x}$}
+{\True $y'=\dfrac{1}{x\ln 13}$}
+{$y'=\dfrac{1}{\ln{13}}$}
+{$y'=\dfrac{\ln{13}}{x}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{x\ln 13}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{39}(3x+3)$ là
+\choice
+{$y'=\dfrac{1}{\ln{39}}$}
+{$y'=\dfrac{\ln{39}}{x+1}$}
+{\True $y'=\dfrac{1}{(x+1)\ln 39}$}
+{$y'=\dfrac{1}{x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+1)\ln 39}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{27}(-x)$ là
+\choice
+{$y'=\dfrac{\ln{27}}{x}$}
+{$y'=\dfrac{1}{x}$}
+{\True $y'=\dfrac{1}{x\ln 27}$}
+{$y'=\dfrac{1}{\ln{27}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{x\ln 27}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{49}(4x-4)$ là
+\choice
+{\True $y'=\dfrac{1}{(x-1)\ln 49}$}
+{$y'=\dfrac{1}{x-1}$}
+{$y'=\dfrac{1}{\ln{49}}$}
+{$y'=\dfrac{\ln{49}}{x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-1)\ln 49}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_2(x+2)$ là
+\choice
+{$y'=\dfrac{1}{\ln{2}}$}
+{$y'=\dfrac{\ln{2}}{x+2}$}
+{\True $y'=\dfrac{1}{(x+2)\ln 2}$}
+{$y'=\dfrac{1}{x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+2)\ln 2}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_7(x-2)$ là
+\choice
+{$y'=\dfrac{1}{\ln{7}}$}
+{\True $y'=\dfrac{1}{(x-2)\ln 7}$}
+{$y'=\dfrac{1}{x-2}$}
+{$y'=\dfrac{\ln{7}}{x-2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-2)\ln 7}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{39}(-4x+3)$ là
+\choice
+{$y'=\dfrac{4}{4x-3}$}
+{\True $y'=\dfrac{4}{(4x-3)\ln 39}$}
+{$y'=\dfrac{4\ln{39}}{4x-3}$}
+{$y'=\dfrac{4}{\ln{39}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x-3)\ln 39}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{27}(-5x-3)$ là
+\choice
+{$y'=\dfrac{5\ln{27}}{5x+3}$}
+{$y'=\dfrac{5}{\ln{27}}$}
+{$y'=\dfrac{5}{5x+3}$}
+{\True $y'=\dfrac{5}{(5x+3)\ln 27}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x+3)\ln 27}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{40}(-2x-4)$ là
+\choice
+{\True $y'=\dfrac{1}{(x+2)\ln 40}$}
+{$y'=\dfrac{\ln{40}}{x+2}$}
+{$y'=\dfrac{1}{\ln{40}}$}
+{$y'=\dfrac{1}{x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+2)\ln 40}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{18}(-x+3)$ là
+\choice
+{$y'=\dfrac{1}{\ln{18}}$}
+{$y'=\dfrac{\ln{18}}{x-3}$}
+{\True $y'=\dfrac{1}{(x-3)\ln 18}$}
+{$y'=\dfrac{1}{x-3}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-3)\ln 18}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{49}(x-5)$ là
+\choice
+{\True $y'=\dfrac{1}{(x-5)\ln 49}$}
+{$y'=\dfrac{1}{x-5}$}
+{$y'=\dfrac{\ln{49}}{x-5}$}
+{$y'=\dfrac{1}{\ln{49}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-5)\ln 49}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_3(2x-3)$ là
+\choice
+{\True $y'=\dfrac{2}{(2x-3)\ln 3}$}
+{$y'=\dfrac{2}{2x-3}$}
+{$y'=\dfrac{2}{\ln{3}}$}
+{$y'=\dfrac{2\ln{3}}{2x-3}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x-3)\ln 3}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_7(5x-3)$ là
+\choice
+{$y'=\dfrac{5}{5x-3}$}
+{\True $y'=\dfrac{5}{(5x-3)\ln 7}$}
+{$y'=\dfrac{5\ln{7}}{5x-3}$}
+{$y'=\dfrac{5}{\ln{7}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x-3)\ln 7}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{13}(-5x-5)$ là
+\choice
+{$y'=\dfrac{1}{\ln{13}}$}
+{\True $y'=\dfrac{1}{(x+1)\ln 13}$}
+{$y'=\dfrac{\ln{13}}{x+1}$}
+{$y'=\dfrac{1}{x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+1)\ln 13}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{37}(-x-5)$ là
+\choice
+{$y'=\dfrac{1}{x+5}$}
+{$y'=\dfrac{1}{\ln{37}}$}
+{\True $y'=\dfrac{1}{(x+5)\ln 37}$}
+{$y'=\dfrac{\ln{37}}{x+5}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+5)\ln 37}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_6(-4x+1)$ là
+\choice
+{$y'=\dfrac{4}{\ln{6}}$}
+{\True $y'=\dfrac{4}{(4x-1)\ln 6}$}
+{$y'=\dfrac{4\ln{6}}{4x-1}$}
+{$y'=\dfrac{4}{4x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x-1)\ln 6}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_4(-2x+5)$ là
+\choice
+{$y'=\dfrac{2}{2x-5}$}
+{$y'=\dfrac{2}{\ln{4}}$}
+{\True $y'=\dfrac{2}{(2x-5)\ln 4}$}
+{$y'=\dfrac{2\ln{4}}{2x-5}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x-5)\ln 4}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{40}(-5x-2)$ là
+\choice
+{$y'=\dfrac{5\ln{40}}{5x+2}$}
+{$y'=\dfrac{5}{5x+2}$}
+{\True $y'=\dfrac{5}{(5x+2)\ln 40}$}
+{$y'=\dfrac{5}{\ln{40}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x+2)\ln 40}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_6(-4x)$ là
+\choice
+{\True $y'=\dfrac{1}{x\ln 6}$}
+{$y'=\dfrac{1}{x}$}
+{$y'=\dfrac{\ln{6}}{x}$}
+{$y'=\dfrac{1}{\ln{6}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{x\ln 6}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{34}(3x+5)$ là
+\choice
+{$y'=\dfrac{3}{\ln{34}}$}
+{$y'=\dfrac{3}{3x+5}$}
+{$y'=\dfrac{3\ln{34}}{3x+5}$}
+{\True $y'=\dfrac{3}{(3x+5)\ln 34}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+5)\ln 34}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{17}(-2x+2)$ là
+\choice
+{$y'=\dfrac{1}{\ln{17}}$}
+{$y'=\dfrac{\ln{17}}{x-1}$}
+{\True $y'=\dfrac{1}{(x-1)\ln 17}$}
+{$y'=\dfrac{1}{x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-1)\ln 17}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{36}(-5x-4)$ là
+\choice
+{$y'=\dfrac{5\ln{36}}{5x+4}$}
+{\True $y'=\dfrac{5}{(5x+4)\ln 36}$}
+{$y'=\dfrac{5}{5x+4}$}
+{$y'=\dfrac{5}{\ln{36}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x+4)\ln 36}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{35}(-5x+4)$ là
+\choice
+{$y'=\dfrac{5\ln{35}}{5x-4}$}
+{$y'=\dfrac{5}{\ln{35}}$}
+{\True $y'=\dfrac{5}{(5x-4)\ln 35}$}
+{$y'=\dfrac{5}{5x-4}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x-4)\ln 35}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{27}(4x-3)$ là
+\choice
+{$y'=\dfrac{4\ln{27}}{4x-3}$}
+{$y'=\dfrac{4}{\ln{27}}$}
+{\True $y'=\dfrac{4}{(4x-3)\ln 27}$}
+{$y'=\dfrac{4}{4x-3}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x-3)\ln 27}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{43}(-2x+2)$ là
+\choice
+{$y'=\dfrac{1}{x-1}$}
+{$y'=\dfrac{1}{\ln{43}}$}
+{\True $y'=\dfrac{1}{(x-1)\ln 43}$}
+{$y'=\dfrac{\ln{43}}{x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-1)\ln 43}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_2(-4x-3)$ là
+\choice
+{$y'=\dfrac{4\ln{2}}{4x+3}$}
+{\True $y'=\dfrac{4}{(4x+3)\ln 2}$}
+{$y'=\dfrac{4}{\ln{2}}$}
+{$y'=\dfrac{4}{4x+3}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x+3)\ln 2}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_8(-2x+1)$ là
+\choice
+{$y'=\dfrac{2}{2x-1}$}
+{\True $y'=\dfrac{2}{(2x-1)\ln 8}$}
+{$y'=\dfrac{2\ln{8}}{2x-1}$}
+{$y'=\dfrac{2}{\ln{8}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x-1)\ln 8}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{40}(-x-4)$ là
+\choice
+{$y'=\dfrac{1}{\ln{40}}$}
+{$y'=\dfrac{\ln{40}}{x+4}$}
+{$y'=\dfrac{1}{x+4}$}
+{\True $y'=\dfrac{1}{(x+4)\ln 40}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+4)\ln 40}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{34}(-3x-2)$ là
+\choice
+{$y'=\dfrac{3\ln{34}}{3x+2}$}
+{$y'=\dfrac{3}{\ln{34}}$}
+{\True $y'=\dfrac{3}{(3x+2)\ln 34}$}
+{$y'=\dfrac{3}{3x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+2)\ln 34}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{12}(4x+2)$ là
+\choice
+{$y'=\dfrac{2}{2x+1}$}
+{$y'=\dfrac{2}{\ln{12}}$}
+{$y'=\dfrac{2\ln{12}}{2x+1}$}
+{\True $y'=\dfrac{2}{(2x+1)\ln 12}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x+1)\ln 12}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{22}(-3x+2)$ là
+\choice
+{$y'=\dfrac{3}{3x-2}$}
+{\True $y'=\dfrac{3}{(3x-2)\ln 22}$}
+{$y'=\dfrac{3}{\ln{22}}$}
+{$y'=\dfrac{3\ln{22}}{3x-2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x-2)\ln 22}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{48}(-4x+1)$ là
+\choice
+{\True $y'=\dfrac{4}{(4x-1)\ln 48}$}
+{$y'=\dfrac{4}{\ln{48}}$}
+{$y'=\dfrac{4\ln{48}}{4x-1}$}
+{$y'=\dfrac{4}{4x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x-1)\ln 48}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_4(-2x+2)$ là
+\choice
+{$y'=\dfrac{1}{\ln{4}}$}
+{$y'=\dfrac{1}{x-1}$}
+{\True $y'=\dfrac{1}{(x-1)\ln 4}$}
+{$y'=\dfrac{\ln{4}}{x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-1)\ln 4}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{32}(4x+3)$ là
+\choice
+{\True $y'=\dfrac{4}{(4x+3)\ln 32}$}
+{$y'=\dfrac{4}{4x+3}$}
+{$y'=\dfrac{4\ln{32}}{4x+3}$}
+{$y'=\dfrac{4}{\ln{32}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x+3)\ln 32}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{17}(4x+2)$ là
+\choice
+{\True $y'=\dfrac{2}{(2x+1)\ln 17}$}
+{$y'=\dfrac{2\ln{17}}{2x+1}$}
+{$y'=\dfrac{2}{\ln{17}}$}
+{$y'=\dfrac{2}{2x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x+1)\ln 17}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{36}(2x-1)$ là
+\choice
+{$y'=\dfrac{2}{2x-1}$}
+{\True $y'=\dfrac{2}{(2x-1)\ln 36}$}
+{$y'=\dfrac{2}{\ln{36}}$}
+{$y'=\dfrac{2\ln{36}}{2x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x-1)\ln 36}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_9(-3x+3)$ là
+\choice
+{$y'=\dfrac{\ln{9}}{x-1}$}
+{$y'=\dfrac{1}{x-1}$}
+{\True $y'=\dfrac{1}{(x-1)\ln 9}$}
+{$y'=\dfrac{1}{\ln{9}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-1)\ln 9}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{42}(3x-2)$ là
+\choice
+{$y'=\dfrac{3\ln{42}}{3x-2}$}
+{\True $y'=\dfrac{3}{(3x-2)\ln 42}$}
+{$y'=\dfrac{3}{3x-2}$}
+{$y'=\dfrac{3}{\ln{42}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x-2)\ln 42}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{30}(-3x-2)$ là
+\choice
+{$y'=\dfrac{3}{3x+2}$}
+{$y'=\dfrac{3\ln{30}}{3x+2}$}
+{$y'=\dfrac{3}{\ln{30}}$}
+{\True $y'=\dfrac{3}{(3x+2)\ln 30}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+2)\ln 30}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{43}(-4x-2)$ là
+\choice
+{\True $y'=\dfrac{2}{(2x+1)\ln 43}$}
+{$y'=\dfrac{2}{\ln{43}}$}
+{$y'=\dfrac{2}{2x+1}$}
+{$y'=\dfrac{2\ln{43}}{2x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x+1)\ln 43}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{21}(-x-4)$ là
+\choice
+{$y'=\dfrac{\ln{21}}{x+4}$}
+{$y'=\dfrac{1}{\ln{21}}$}
+{\True $y'=\dfrac{1}{(x+4)\ln 21}$}
+{$y'=\dfrac{1}{x+4}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+4)\ln 21}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{47}(x-1)$ là
+\choice
+{$y'=\dfrac{1}{x-1}$}
+{\True $y'=\dfrac{1}{(x-1)\ln 47}$}
+{$y'=\dfrac{\ln{47}}{x-1}$}
+{$y'=\dfrac{1}{\ln{47}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-1)\ln 47}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{22}(-4x-1)$ là
+\choice
+{$y'=\dfrac{4}{\ln{22}}$}
+{$y'=\dfrac{4}{4x+1}$}
+{\True $y'=\dfrac{4}{(4x+1)\ln 22}$}
+{$y'=\dfrac{4\ln{22}}{4x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x+1)\ln 22}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{35}(-3x-1)$ là
+\choice
+{$y'=\dfrac{3}{3x+1}$}
+{$y'=\dfrac{3}{\ln{35}}$}
+{$y'=\dfrac{3\ln{35}}{3x+1}$}
+{\True $y'=\dfrac{3}{(3x+1)\ln 35}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+1)\ln 35}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{14}(-3x-3)$ là
+\choice
+{\True $y'=\dfrac{1}{(x+1)\ln 14}$}
+{$y'=\dfrac{1}{\ln{14}}$}
+{$y'=\dfrac{1}{x+1}$}
+{$y'=\dfrac{\ln{14}}{x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+1)\ln 14}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{29}(4x+2)$ là
+\choice
+{\True $y'=\dfrac{2}{(2x+1)\ln 29}$}
+{$y'=\dfrac{2}{2x+1}$}
+{$y'=\dfrac{2}{\ln{29}}$}
+{$y'=\dfrac{2\ln{29}}{2x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x+1)\ln 29}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{22}(-3x+4)$ là
+\choice
+{\True $y'=\dfrac{3}{(3x-4)\ln 22}$}
+{$y'=\dfrac{3\ln{22}}{3x-4}$}
+{$y'=\dfrac{3}{\ln{22}}$}
+{$y'=\dfrac{3}{3x-4}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x-4)\ln 22}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{25}(2x-5)$ là
+\choice
+{\True $y'=\dfrac{2}{(2x-5)\ln 25}$}
+{$y'=\dfrac{2\ln{25}}{2x-5}$}
+{$y'=\dfrac{2}{\ln{25}}$}
+{$y'=\dfrac{2}{2x-5}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x-5)\ln 25}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_2(x-4)$ là
+\choice
+{$y'=\dfrac{1}{x-4}$}
+{\True $y'=\dfrac{1}{(x-4)\ln 2}$}
+{$y'=\dfrac{\ln{2}}{x-4}$}
+{$y'=\dfrac{1}{\ln{2}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-4)\ln 2}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{27}(-2x-4)$ là
+\choice
+{$y'=\dfrac{1}{\ln{27}}$}
+{$y'=\dfrac{\ln{27}}{x+2}$}
+{\True $y'=\dfrac{1}{(x+2)\ln 27}$}
+{$y'=\dfrac{1}{x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+2)\ln 27}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{24}(2x+1)$ là
+\choice
+{$y'=\dfrac{2\ln{24}}{2x+1}$}
+{$y'=\dfrac{2}{\ln{24}}$}
+{\True $y'=\dfrac{2}{(2x+1)\ln 24}$}
+{$y'=\dfrac{2}{2x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x+1)\ln 24}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{23}(5x+2)$ là
+\choice
+{\True $y'=\dfrac{5}{(5x+2)\ln 23}$}
+{$y'=\dfrac{5}{5x+2}$}
+{$y'=\dfrac{5}{\ln{23}}$}
+{$y'=\dfrac{5\ln{23}}{5x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x+2)\ln 23}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{26}(-x-2)$ là
+\choice
+{\True $y'=\dfrac{1}{(x+2)\ln 26}$}
+{$y'=\dfrac{1}{x+2}$}
+{$y'=\dfrac{1}{\ln{26}}$}
+{$y'=\dfrac{\ln{26}}{x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+2)\ln 26}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_9(3x-2)$ là
+\choice
+{$y'=\dfrac{3}{3x-2}$}
+{$y'=\dfrac{3\ln{9}}{3x-2}$}
+{$y'=\dfrac{3}{\ln{9}}$}
+{\True $y'=\dfrac{3}{(3x-2)\ln 9}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x-2)\ln 9}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{12}(4x+5)$ là
+\choice
+{$y'=\dfrac{4\ln{12}}{4x+5}$}
+{$y'=\dfrac{4}{4x+5}$}
+{$y'=\dfrac{4}{\ln{12}}$}
+{\True $y'=\dfrac{4}{(4x+5)\ln 12}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x+5)\ln 12}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{20}(-4x-2)$ là
+\choice
+{$y'=\dfrac{2}{2x+1}$}
+{$y'=\dfrac{2\ln{20}}{2x+1}$}
+{\True $y'=\dfrac{2}{(2x+1)\ln 20}$}
+{$y'=\dfrac{2}{\ln{20}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x+1)\ln 20}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{31}(-x-2)$ là
+\choice
+{$y'=\dfrac{1}{\ln{31}}$}
+{$y'=\dfrac{1}{x+2}$}
+{\True $y'=\dfrac{1}{(x+2)\ln 31}$}
+{$y'=\dfrac{\ln{31}}{x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+2)\ln 31}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{16}(3x+2)$ là
+\choice
+{\True $y'=\dfrac{3}{(3x+2)\ln 16}$}
+{$y'=\dfrac{3\ln{16}}{3x+2}$}
+{$y'=\dfrac{3}{\ln{16}}$}
+{$y'=\dfrac{3}{3x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+2)\ln 16}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{30}(4x+3)$ là
+\choice
+{$y'=\dfrac{4\ln{30}}{4x+3}$}
+{\True $y'=\dfrac{4}{(4x+3)\ln 30}$}
+{$y'=\dfrac{4}{\ln{30}}$}
+{$y'=\dfrac{4}{4x+3}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x+3)\ln 30}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{13}(-5x+5)$ là
+\choice
+{$y'=\dfrac{1}{x-1}$}
+{$y'=\dfrac{1}{\ln{13}}$}
+{\True $y'=\dfrac{1}{(x-1)\ln 13}$}
+{$y'=\dfrac{\ln{13}}{x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-1)\ln 13}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{43}(3x-3)$ là
+\choice
+{$y'=\dfrac{1}{x-1}$}
+{\True $y'=\dfrac{1}{(x-1)\ln 43}$}
+{$y'=\dfrac{1}{\ln{43}}$}
+{$y'=\dfrac{\ln{43}}{x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-1)\ln 43}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{27}(x-3)$ là
+\choice
+{$y'=\dfrac{\ln{27}}{x-3}$}
+{$y'=\dfrac{1}{\ln{27}}$}
+{$y'=\dfrac{1}{x-3}$}
+{\True $y'=\dfrac{1}{(x-3)\ln 27}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-3)\ln 27}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{20}(-3x-1)$ là
+\choice
+{\True $y'=\dfrac{3}{(3x+1)\ln 20}$}
+{$y'=\dfrac{3}{3x+1}$}
+{$y'=\dfrac{3}{\ln{20}}$}
+{$y'=\dfrac{3\ln{20}}{3x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+1)\ln 20}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_8(3x+1)$ là
+\choice
+{$y'=\dfrac{3\ln{8}}{3x+1}$}
+{$y'=\dfrac{3}{3x+1}$}
+{$y'=\dfrac{3}{\ln{8}}$}
+{\True $y'=\dfrac{3}{(3x+1)\ln 8}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+1)\ln 8}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{23}(-2x+4)$ là
+\choice
+{$y'=\dfrac{1}{x-2}$}
+{\True $y'=\dfrac{1}{(x-2)\ln 23}$}
+{$y'=\dfrac{1}{\ln{23}}$}
+{$y'=\dfrac{\ln{23}}{x-2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-2)\ln 23}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{40}x$ là
+\choice
+{\True $y'=\dfrac{1}{x\ln 40}$}
+{$y'=\dfrac{\ln{40}}{x}$}
+{$y'=\dfrac{1}{\ln{40}}$}
+{$y'=\dfrac{1}{x}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{x\ln 40}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{44}(2x+1)$ là
+\choice
+{$y'=\dfrac{2}{\ln{44}}$}
+{\True $y'=\dfrac{2}{(2x+1)\ln 44}$}
+{$y'=\dfrac{2}{2x+1}$}
+{$y'=\dfrac{2\ln{44}}{2x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x+1)\ln 44}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_9(-4x-5)$ là
+\choice
+{$y'=\dfrac{4}{4x+5}$}
+{\True $y'=\dfrac{4}{(4x+5)\ln 9}$}
+{$y'=\dfrac{4\ln{9}}{4x+5}$}
+{$y'=\dfrac{4}{\ln{9}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x+5)\ln 9}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{42}(x+1)$ là
+\choice
+{\True $y'=\dfrac{1}{(x+1)\ln 42}$}
+{$y'=\dfrac{1}{x+1}$}
+{$y'=\dfrac{1}{\ln{42}}$}
+{$y'=\dfrac{\ln{42}}{x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+1)\ln 42}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{39}(-4x-3)$ là
+\choice
+{$y'=\dfrac{4\ln{39}}{4x+3}$}
+{$y'=\dfrac{4}{4x+3}$}
+{$y'=\dfrac{4}{\ln{39}}$}
+{\True $y'=\dfrac{4}{(4x+3)\ln 39}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x+3)\ln 39}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{12}(2x-1)$ là
+\choice
+{$y'=\dfrac{2\ln{12}}{2x-1}$}
+{\True $y'=\dfrac{2}{(2x-1)\ln 12}$}
+{$y'=\dfrac{2}{2x-1}$}
+{$y'=\dfrac{2}{\ln{12}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x-1)\ln 12}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{45}(-x-2)$ là
+\choice
+{$y'=\dfrac{\ln{45}}{x+2}$}
+{$y'=\dfrac{1}{\ln{45}}$}
+{\True $y'=\dfrac{1}{(x+2)\ln 45}$}
+{$y'=\dfrac{1}{x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+2)\ln 45}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{36}(3x+4)$ là
+\choice
+{$y'=\dfrac{3\ln{36}}{3x+4}$}
+{$y'=\dfrac{3}{\ln{36}}$}
+{$y'=\dfrac{3}{3x+4}$}
+{\True $y'=\dfrac{3}{(3x+4)\ln 36}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+4)\ln 36}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{27}(-5x)$ là
+\choice
+{$y'=\dfrac{\ln{27}}{x}$}
+{$y'=\dfrac{1}{\ln{27}}$}
+{$y'=\dfrac{1}{x}$}
+{\True $y'=\dfrac{1}{x\ln 27}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{x\ln 27}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_6(-4x+2)$ là
+\choice
+{$y'=\dfrac{2}{\ln{6}}$}
+{$y'=\dfrac{2}{2x-1}$}
+{\True $y'=\dfrac{2}{(2x-1)\ln 6}$}
+{$y'=\dfrac{2\ln{6}}{2x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x-1)\ln 6}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{33}(-5x+2)$ là
+\choice
+{$y'=\dfrac{5}{\ln{33}}$}
+{$y'=\dfrac{5\ln{33}}{5x-2}$}
+{\True $y'=\dfrac{5}{(5x-2)\ln 33}$}
+{$y'=\dfrac{5}{5x-2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x-2)\ln 33}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{45}(-2x+4)$ là
+\choice
+{\True $y'=\dfrac{1}{(x-2)\ln 45}$}
+{$y'=\dfrac{1}{x-2}$}
+{$y'=\dfrac{1}{\ln{45}}$}
+{$y'=\dfrac{\ln{45}}{x-2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-2)\ln 45}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_7(3x-4)$ là
+\choice
+{\True $y'=\dfrac{3}{(3x-4)\ln 7}$}
+{$y'=\dfrac{3}{\ln{7}}$}
+{$y'=\dfrac{3\ln{7}}{3x-4}$}
+{$y'=\dfrac{3}{3x-4}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x-4)\ln 7}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{35}(3x+5)$ là
+\choice
+{$y'=\dfrac{3}{\ln{35}}$}
+{$y'=\dfrac{3}{3x+5}$}
+{\True $y'=\dfrac{3}{(3x+5)\ln 35}$}
+{$y'=\dfrac{3\ln{35}}{3x+5}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+5)\ln 35}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{33}(4x-1)$ là
+\choice
+{\True $y'=\dfrac{4}{(4x-1)\ln 33}$}
+{$y'=\dfrac{4}{\ln{33}}$}
+{$y'=\dfrac{4}{4x-1}$}
+{$y'=\dfrac{4\ln{33}}{4x-1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x-1)\ln 33}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_7(5x+2)$ là
+\choice
+{$y'=\dfrac{5}{\ln{7}}$}
+{$y'=\dfrac{5}{5x+2}$}
+{\True $y'=\dfrac{5}{(5x+2)\ln 7}$}
+{$y'=\dfrac{5\ln{7}}{5x+2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x+2)\ln 7}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{19}(2x+2)$ là
+\choice
+{\True $y'=\dfrac{1}{(x+1)\ln 19}$}
+{$y'=\dfrac{\ln{19}}{x+1}$}
+{$y'=\dfrac{1}{x+1}$}
+{$y'=\dfrac{1}{\ln{19}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+1)\ln 19}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{15}(4x-2)$ là
+\choice
+{$y'=\dfrac{2\ln{15}}{2x-1}$}
+{$y'=\dfrac{2}{2x-1}$}
+{$y'=\dfrac{2}{\ln{15}}$}
+{\True $y'=\dfrac{2}{(2x-1)\ln 15}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{2}{(2x-1)\ln 15}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{46}(-5x-5)$ là
+\choice
+{$y'=\dfrac{1}{x+1}$}
+{$y'=\dfrac{\ln{46}}{x+1}$}
+{$y'=\dfrac{1}{\ln{46}}$}
+{\True $y'=\dfrac{1}{(x+1)\ln 46}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+1)\ln 46}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_9(-4x-1)$ là
+\choice
+{$y'=\dfrac{4}{\ln{9}}$}
+{$y'=\dfrac{4}{4x+1}$}
+{$y'=\dfrac{4\ln{9}}{4x+1}$}
+{\True $y'=\dfrac{4}{(4x+1)\ln 9}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x+1)\ln 9}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_2(-3x+2)$ là
+\choice
+{$y'=\dfrac{3}{3x-2}$}
+{$y'=\dfrac{3}{\ln{2}}$}
+{$y'=\dfrac{3\ln{2}}{3x-2}$}
+{\True $y'=\dfrac{3}{(3x-2)\ln 2}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x-2)\ln 2}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{47}(x-5)$ là
+\choice
+{$y'=\dfrac{\ln{47}}{x-5}$}
+{\True $y'=\dfrac{1}{(x-5)\ln 47}$}
+{$y'=\dfrac{1}{x-5}$}
+{$y'=\dfrac{1}{\ln{47}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-5)\ln 47}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{38}(-5x-5)$ là
+\choice
+{$y'=\dfrac{\ln{38}}{x+1}$}
+{$y'=\dfrac{1}{x+1}$}
+{\True $y'=\dfrac{1}{(x+1)\ln 38}$}
+{$y'=\dfrac{1}{\ln{38}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+1)\ln 38}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{19}(3x-1)$ là
+\choice
+{$y'=\dfrac{3\ln{19}}{3x-1}$}
+{\True $y'=\dfrac{3}{(3x-1)\ln 19}$}
+{$y'=\dfrac{3}{3x-1}$}
+{$y'=\dfrac{3}{\ln{19}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x-1)\ln 19}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{19}(3x+2)$ là
+\choice
+{$y'=\dfrac{3}{3x+2}$}
+{$y'=\dfrac{3\ln{19}}{3x+2}$}
+{\True $y'=\dfrac{3}{(3x+2)\ln 19}$}
+{$y'=\dfrac{3}{\ln{19}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{3}{(3x+2)\ln 19}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{11}(4x+5)$ là
+\choice
+{$y'=\dfrac{4}{\ln{11}}$}
+{$y'=\dfrac{4}{4x+5}$}
+{\True $y'=\dfrac{4}{(4x+5)\ln 11}$}
+{$y'=\dfrac{4\ln{11}}{4x+5}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x+5)\ln 11}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{27}(-x+4)$ là
+\choice
+{$y'=\dfrac{1}{x-4}$}
+{$y'=\dfrac{1}{\ln{27}}$}
+{\True $y'=\dfrac{1}{(x-4)\ln 27}$}
+{$y'=\dfrac{\ln{27}}{x-4}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-4)\ln 27}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{27}(x+2)$ là
+\choice
+{$y'=\dfrac{1}{x+2}$}
+{$y'=\dfrac{1}{\ln{27}}$}
+{$y'=\dfrac{\ln{27}}{x+2}$}
+{\True $y'=\dfrac{1}{(x+2)\ln 27}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+2)\ln 27}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_7(-4x+5)$ là
+\choice
+{$y'=\dfrac{4\ln{7}}{4x-5}$}
+{$y'=\dfrac{4}{4x-5}$}
+{\True $y'=\dfrac{4}{(4x-5)\ln 7}$}
+{$y'=\dfrac{4}{\ln{7}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{4}{(4x-5)\ln 7}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{24}(-x)$ là
+\choice
+{$y'=\dfrac{1}{x}$}
+{$y'=\dfrac{\ln{24}}{x}$}
+{$y'=\dfrac{1}{\ln{24}}$}
+{\True $y'=\dfrac{1}{x\ln 24}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{x\ln 24}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{30}(5x-4)$ là
+\choice
+{$y'=\dfrac{5}{5x-4}$}
+{$y'=\dfrac{5}{\ln{30}}$}
+{$y'=\dfrac{5\ln{30}}{5x-4}$}
+{\True $y'=\dfrac{5}{(5x-4)\ln 30}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x-4)\ln 30}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{29}(-4x-4)$ là
+\choice
+{\True $y'=\dfrac{1}{(x+1)\ln 29}$}
+{$y'=\dfrac{1}{\ln{29}}$}
+{$y'=\dfrac{\ln{29}}{x+1}$}
+{$y'=\dfrac{1}{x+1}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x+1)\ln 29}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{44}(-5x+3)$ là
+\choice
+{$y'=\dfrac{5}{\ln{44}}$}
+{$y'=\dfrac{5}{5x-3}$}
+{$y'=\dfrac{5\ln{44}}{5x-3}$}
+{\True $y'=\dfrac{5}{(5x-3)\ln 44}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{5}{(5x-3)\ln 44}$.}
+\end{ex}
+\begin{ex}
+Đạo hàm của hàm số $y=\log_{24}(-5x+5)$ là
+\choice
+{\True $y'=\dfrac{1}{(x-1)\ln 24}$}
+{$y'=\dfrac{1}{x-1}$}
+{$y'=\dfrac{\ln{24}}{x-1}$}
+{$y'=\dfrac{1}{\ln{24}}$}
+\loigiai{Đạo hàm của hàm số trên là $y'=\dfrac{1}{(x-1)\ln 24}$.}
+\end{ex}
+
+\Closesolutionfile{ans}
+\Closesolutionfile{ansbook}
+\end{document}
+\newpage
+\setcounter{page}{1}
+\begin{center}
+{\bf\Large ĐÁP ÁN}\vspace{12pt}
+\begin{multicols}{10}
+\input{ans/DA}
+\end{multicols}
+\end{center}
+\newpage
+\setcounter{page}{1}
+\begin{center}
+{\bf\Large LỜI GIẢI CHI TIẾT}
+\end{center}
+\input{ans/LG}
+\end{document}
