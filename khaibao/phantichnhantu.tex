@@ -1,0 +1,316 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,tkz-tab}
+\usepackage{fancyhdr}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=1.5cm] {geometry}
+\usepackage[loigiai]{ex_test}
+\usetikzlibrary{calc,angles}
+\renewcommand{\TrueEX}{\stepcounter{dapan}{\small\circled{\textbf{\Alph{dapan}}}}\ignorespaces}
+\renewcommand{\FalseEX}{\stepcounter{dapan}{\small\circled{\textbf{\Alph{dapan}}}}\ignorespaces}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewtheorem{ex}{\color{blue}Câu}
+\begin{document}
+	\Opensolutionfile{ansbook}[ans/LG]
+	\Opensolutionfile{ans}[ans/DA]
+	\pagestyle{fancy}
+	\fancyhf{}
+	\fancyfoot[R]{Trang \thepage}
+	\begin{center}
+		{\bf\Large BÀI TẬP GIÚP GIỎI TOÁN LỚP 9}
+	\end{center}
+	\lhead{Biên soạn: THS. VÕ THANH PHONG}
+	\rhead{THPT HUỲNH THỊ HƯỞNG}
+	\lfoot{Số điện thoại 0981011235}
+
+%%==========Câu 1
+\begin{ex}
+	Rút gọn các biểu thức sau:
+	\begin{enumerate}
+		\item $12\sqrt{25a^{18}}+14a^{9}$ với $a>0$ 
+		\item $27\sqrt{4a^{10}}-2a^{5}$ với $a>0$ 
+		\item $27\sqrt{a^{8}}-16a^{4}$ với $a>0$ 
+		\item $20\sqrt{49a^{24}}+14a^{12}$ với $a>0$ 
+		\item $21\sqrt{81a^{34}}-5a^{17}$ với $a>0$ 
+		\item $4\sqrt{25a^{10}}-2a^{5}$ với $a>0$ 
+		\item $16\sqrt{81a^{18}}-16a^{9}$ với $a>0$ 
+		\item $4\sqrt{36a^{32}}+18a^{16}$ với $a>0$ 
+		\item $20\sqrt{16a^{8}}+6a^{4}$ với $a>0$ 
+		\item $19\sqrt{49a^{34}}-11a^{17}$ với $a>0$ 
+		\item $19\sqrt{25a^{6}}-14a^{3}$ với $a>0$
+		\item $3\sqrt{25a^{24}}+19a^{12}$ với $a>0$
+		\item $14\sqrt{49a^{8}}+16a^{4}$ với $a>0$
+		\item $11\sqrt{49a^{2}}-6a$ với $a>0$
+		\item $9\sqrt{64a^{20}}+3a^{10}$ với $a>0$
+		\item $27\sqrt{81a^{36}}+10a^{18}$ với $a>0$
+		\item $12\sqrt{81a^{8}}+4a^{4}$ với $a>0$
+		\item $24\sqrt{9a^{20}}-10a^{10}$ với $a>0$
+		\item $20\sqrt{36a^{24}}+13a^{12}$ với $a>0$
+		\item $12\sqrt{49a^{32}}-15a^{16}$ với $a>0$
+	\end{enumerate}
+\end{ex}
+
+%%==========Câu 2
+\begin{ex}
+	Rút gọn các biểu thức sau:
+	\begin{enumerate}
+		\item $12\sqrt{81a^{28}}$ với $a\leq  0$
+		\item $15\sqrt{25a^{18}}+18a^{9}$ với $a\leq  0$
+		\item $9\sqrt{36a^{4}}+2a^{2}$ với $a\leq  0$
+		\item $16\sqrt{25a^{14}}+2a^{7}$ với $a\leq  0$
+		\item $19\sqrt{81a^{16}}-18a^{8}$ với $a\leq  0$
+		\item $13\sqrt{64a^{28}}-2a^{14}$ với $a\leq  0$
+		\item $15\sqrt{9a^{4}}+9a^{2}$ với $a\leq  0$
+		\item $16\sqrt{36a^{2}}-5a$ với $a\leq  0$
+		\item $23\sqrt{4a^{20}}-14a^{10}$ với $a\leq  0$
+		\item $9\sqrt{4a^{6}}+11a^{3}$ với $a\leq  0$
+		\item $17\sqrt{64a^{38}}+13a^{19}$ với $a\leq  0$
+		\item $1\sqrt{81a^{26}}-17a^{13}$ với $a\leq  0$
+		\item $27\sqrt{4a^{12}}-4a^{6}$ với $a\leq  0$
+		\item $25\sqrt{36a^{26}}-10a^{13}$ với $a\leq  0$
+		\item $23\sqrt{16a^{20}}+10a^{10}$ với $a\leq  0$
+		\item $5\sqrt{49a^{14}}-7a^{7}$ với $a\leq  0$
+		\item $8\sqrt{9a^{30}}+10a^{15}$ với $a\leq  0$
+		\item $10\sqrt{49a^{10}}+12a^{5}$ với $a\leq  0$
+		\item $12\sqrt{25a^{2}}-3a$ với $a\leq  0$
+		\item $29\sqrt{25a^{8}}-5a^{4}$ với $a\leq  0$
+	\end{enumerate}
+\end{ex}
+
+\begin{ex}
+	Phân tích thành nhân tử:
+	\begin{enumerate}
+		\item ${4x^2 - 70}$
+		\item ${4x^2 - 2}$
+		\item ${64x^2 - 8}$
+		\item ${36x^2 - 19}$
+		\item ${25x^2 - 2}$
+		\item ${64x^2 - 18}$
+		\item ${4x^2 - 2}$
+		\item ${49x^2 - 11}$
+		\item ${81x^2 - 5}$
+		\item ${25x^2 - 17}$
+		\item ${4x^2 - 6}$
+		\item ${16x^2 - 12}$
+		\item ${81x^2 - 19}$
+		\item ${81x^2 - 7}$
+		\item ${64x^2 - 13}$
+		\item ${25x^2 - 10}$
+		\item ${16x^2 - 13}$
+		\item ${25x^2 - 8}$
+		\item ${16x^2 - 11}$
+		\item ${25x^2 - 13}$
+	\end{enumerate}
+\end{ex}
+
+\begin{ex}
+	Phân tích thành nhân tử:
+	\begin{enumerate}
+		\item ${17 - 9x^2}$
+		\item ${18 - 4x^2}$
+		\item ${18 - 16x^2}$
+		\item ${85 - 16x^2}$
+		\item ${12 - 16x^2}$
+		\item ${12 - 9x^2}$
+		\item ${19 - 16x^2}$
+		\item ${15 - 81x^2}$
+		\item ${8 - 81x^2}$
+		\item ${5 - 36x^2}$
+		\item ${11 - 25x^2}$
+		\item ${17 - 64x^2}$
+		\item ${15 - 49x^2}$
+		\item ${8 - x^2}$
+		\item ${8 - 49x^2}$
+		\item ${11 - 9x^2}$
+		\item ${8 - 4x^2}$
+		\item ${13 - 4x^2}$
+		\item ${8 - 81x^2}$
+		\item ${18 - 16x^2}$
+	\end{enumerate}
+\end{ex}
+
+\begin{ex}
+	Phân tích thành nhân tử:
+	\begin{enumerate}
+		\item ${x^2 + 2\sqrt{13}x+13}$
+		\item ${x^2 + 2\sqrt{19}x+19}$
+		\item ${x^2 + 2\sqrt{28}x+28}$
+		\item ${x^2 + 2\sqrt{29}x+29}$
+		\item ${x^2 + 2\sqrt{28}x+28}$
+		\item ${x^2 + 2\sqrt{14}x+14}$
+		\item ${x^2 + 2\sqrt{19}x+19}$
+		\item ${x^2 + 2\sqrt{24}x+24}$
+		\item ${x^2 + 2\sqrt{24}x+24}$
+		\item ${x^2 + 2\sqrt{15}x+15}$
+		\item ${x^2 + 2\sqrt{23}x+23}$
+		\item ${x^2 + 2\sqrt{5}x+5}$
+		\item ${x^2 + 2\sqrt{17}x+17}$
+		\item ${x^2 + 2\sqrt{28}x+28}$
+		\item ${x^2 + 2\sqrt{26}x+26}$
+		\item ${x^2 + 2\sqrt{5}x+5}$
+		\item ${x^2 + 2\sqrt{13}x+13}$
+		\item ${x^2 + 2\sqrt{28}x+28}$
+		\item ${x^2 + 2\sqrt{14}x+14}$
+		\item ${x^2 + 2\sqrt{24}x+24}$
+	\end{enumerate}
+\end{ex}
+
+\begin{ex}
+	Phân tích thành nhân tử:
+	\begin{enumerate}
+		\item ${x^2 - 2\sqrt{2}x+2}$
+		\item ${x^2 - 2\sqrt{17}x+17}$
+		\item ${x^2 - 2\sqrt{21}x+21}$
+		\item ${x^2 - 2\sqrt{6}x+6}$
+		\item ${x^2 - 2\sqrt{28}x+28}$
+		\item ${x^2 - 2\sqrt{27}x+27}$
+		\item ${x^2 - 2\sqrt{2}x+2}$
+		\item ${x^2 - 2\sqrt{14}x+14}$
+		\item ${x^2 - 2\sqrt{27}x+27}$
+		\item ${x^2 - 2\sqrt{23}x+23}$
+		\item ${x^2 - 2\sqrt{15}x+15}$
+		\item ${x^2 - 2\sqrt{6}x+6}$
+		\item ${x^2 - 2\sqrt{18}x+18}$
+		\item ${x^2 - 2\sqrt{15}x+15}$
+		\item ${x^2 - 2\sqrt{3}x+3}$
+		\item ${x^2 - 2\sqrt{18}x+18}$
+		\item ${x^2 - 2\sqrt{19}x+19}$
+		\item ${x^2 - 2\sqrt{26}x+26}$
+		\item ${x^2 - 2\sqrt{21}x+21}$
+		\item ${x^2 - 2\sqrt{2}x+2}$
+	\end{enumerate}
+\end{ex}
+
+
+
+%%==========Câu 7
+\begin{ex}
+	Giải phương trình:
+	\begin{enumerate}
+		\item ${4x^2 - 11}=0$
+		\item ${16x^2 - 5}=0$
+		\item ${x^2 - 15}=0$
+		\item ${49x^2 - 13}=0$
+		\item ${16x^2 - 15}=0$
+		\item ${9x^2 - 2}=0$
+		\item ${64x^2 - 6}=0$
+		\item ${x^2 - 18}=0$
+		\item ${49x^2 - 17}=0$
+		\item ${4x^2 - 10}=0$
+		\item ${36x^2 - 3}=0$
+		\item ${49x^2 - 5}=0$
+		\item ${64x^2 - 6}=0$
+		\item ${49x^2 - 11}=0$
+		\item ${36x^2 - 12}=0$
+		\item ${49x^2 - 14}=0$
+		\item ${9x^2 - 17}=0$
+		\item ${4x^2 - 3}=0$
+		\item ${64x^2 - 12}=0$
+		\item ${25x^2 - 19}=0$
+	\end{enumerate}
+\end{ex}
+
+%%==========Câu 8
+\begin{ex}
+	Giải phương trình:
+	\begin{enumerate}
+		\item ${49 - 64x^2}=0$
+		\item ${49 - 4x^2}=0$
+		\item ${64 - 25x^2}=0$
+		\item ${16 - 49x^2}=0$
+		\item ${64 - 64x^2}=0$
+		\item ${1 - 9x^2}=0$
+		\item ${64 - 9x^2}=0$
+		\item ${4 - 49x^2}=0$
+		\item ${4 - x^2}=0$
+		\item ${64 - 25x^2}=0$
+		\item ${49 - 36x^2}=0$
+		\item ${49 - 81x^2}=0$
+		\item ${16 - 25x^2}=0$
+		\item ${9 - 25x^2}=0$
+		\item ${49 - 81x^2}=0$
+		\item ${16 - 4x^2}=0$
+		\item ${9 - x^2}=0$
+		\item ${16 - 81x^2}=0$
+		\item ${9 - 64x^2}=0$
+		\item ${36 - 81x^2}=0$
+	\end{enumerate}
+\end{ex}
+
+%%==========Câu 9
+\begin{ex}
+	Giải phương trình:
+	\begin{enumerate}
+		\item ${x^2 + 2\sqrt{27}x+27}=0$
+		\item ${x^2 + 2\sqrt{13}x+13}=0$
+		\item ${x^2 + 2\sqrt{14}x+14}=0$
+		\item ${x^2 + 2\sqrt{14}x+14}=0$
+		\item ${x^2 + 2\sqrt{18}x+18}=0$
+		\item ${x^2 + 2\sqrt{14}x+14}=0$
+		\item ${x^2 + 2\sqrt{27}x+27}=0$
+		\item ${x^2 + 2\sqrt{6}x+6}=0$
+		\item ${x^2 + 2\sqrt{27}x+27}=0$
+		\item ${x^2 + 2\sqrt{13}x+13}=0$
+		\item ${x^2 + 2\sqrt{6}x+6}=0$
+		\item ${x^2 + 2\sqrt{29}x+29}=0$
+		\item ${x^2 + 2\sqrt{10}x+10}=0$
+		\item ${x^2 + 2\sqrt{17}x+17}=0$
+		\item ${x^2 + 2\sqrt{26}x+26}=0$
+		\item ${x^2 + 2\sqrt{17}x+17}=0$
+		\item ${x^2 + 2\sqrt{11}x+11}=0$
+		\item ${x^2 + 2\sqrt{24}x+24}=0$
+		\item ${x^2 + 2\sqrt{20}x+20}=0$
+		\item ${x^2 + 2\sqrt{5}x+5}=0$
+	\end{enumerate}
+\end{ex}
+
+%%==========Câu 10
+\begin{ex}
+	Giải phương trình:
+	\begin{enumerate}
+		\item ${x^2 - 2\sqrt{23}x+23}=0$
+		\item ${x^2 - 2\sqrt{23}x+23}=0$
+		\item ${x^2 - 2\sqrt{17}x+17}=0$
+		\item ${x^2 - 2\sqrt{7}x+7}=0$
+		\item ${x^2 - 2\sqrt{10}x+10}=0$
+		\item ${x^2 - 2\sqrt{14}x+14}=0$
+		\item ${x^2 - 2\sqrt{10}x+10}=0$
+		\item ${x^2 - 2\sqrt{6}x+6}=0$
+		\item ${x^2 - 2\sqrt{14}x+14}=0$
+		\item ${x^2 - 2\sqrt{15}x+15}=0$
+		\item ${x^2 - 2\sqrt{24}x+24}=0$
+		\item ${x^2 - 2\sqrt{24}x+24}=0$
+		\item ${x^2 - 2\sqrt{21}x+21}=0$
+		\item ${x^2 - 2\sqrt{7}x+7}=0$
+		\item ${x^2 - 2\sqrt{7}x+7}=0$
+		\item ${x^2 - 2\sqrt{28}x+28}=0$
+		\item ${x^2 - 2\sqrt{11}x+11}=0$
+		\item ${x^2 - 2\sqrt{11}x+11}=0$
+		\item ${x^2 - 2\sqrt{6}x+6}=0$
+		\item ${x^2 - 2\sqrt{14}x+14}=0$
+	\end{enumerate}
+\end{ex}
+	
+	
+	
+	
+	
+	
+	
+\Closesolutionfile{ans}
+\Closesolutionfile{ansbook}
+\end{document}
+\newpage
+\setcounter{page}{1}
+\begin{center}
+{\bf\Large ĐÁP ÁN}\vspace{12pt}
+\begin{multicols}{10}
+	\input{ans/DA}
+\end{multicols}
+\end{center}
+\newpage
+\setcounter{page}{1}
+\begin{center}
+{\bf\Large LỜI GIẢI CHI TIẾT}
+\end{center}
+\input{ans/LG}
+\end{document}	

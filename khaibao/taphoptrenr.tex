@@ -1,0 +1,272 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,tkz-tab}
+\usepackage{fancyhdr}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=1.5cm] {geometry}
+\usepackage[loigiai]{ex_test}
+\usetikzlibrary{calc,angles}
+\renewcommand{\TrueEX}{\stepcounter{dapan}{\small\circled{\textbf{\Alph{dapan}}}}\ignorespaces}
+\renewcommand{\FalseEX}{\stepcounter{dapan}{\small\circled{\textbf{\Alph{dapan}}}}\ignorespaces}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewtheorem{ex}{\color{blue}Câu}
+\begin{document}
+	\Opensolutionfile{ansbook}[ans/LG]
+	\Opensolutionfile{ans}[ans/DA]
+	\pagestyle{fancy}
+	\fancyhf{}
+	\fancyfoot[R]{Trang \thepage}
+	\begin{center}
+		{\bf\Large BÀI TẬP GIÚP GIỎI TOÁN LỚP 10}
+	\end{center}
+	\lhead{Biên soạn: THS. VÕ THANH PHONG}
+	\rhead{THPT HUỲNH THỊ HƯỞNG}
+	\lfoot{Số điện thoại 0981011235}
+
+\begin{ex}
+	Vẽ trục và tìm:
+	\begin{enumerate}
+		\item $(-8;-7)\cup[-10;13]$
+		\item $[-14;1]\cup[-9;7)$
+		\item $(-8;12)\cup[-12;13)$
+		\item $[-7;-6]\cup(-12;14]$
+		\item $[-10;4)\cup[3;5)$
+		\item $[-14;5)\cup[-3;9)$
+		\item $[-14;-13]\cup[-13;-5)$
+		\item $[-1;8)\cup[-2;11)$
+		\item $(-8;0)\cup[-9;1]$
+		\item $(-11;2)\cup[-11;2)$
+		\item $[-13;-11]\cup(-12;11)$
+		\item $(-11;9]\cup(5;14]$
+		\item $(-6;13)\cup(-2;14]$
+		\item $[-13;2]\cup(-1;13]$
+		\item $[-14;-9]\cup(-11;4)$
+		\item $[-10;5)\cup[4;13)$
+		\item $(1;4]\cup(-1;14]$
+		\item $(-1;6)\cup[-6;11]$
+		\item $[-8;1]\cup(-11;3)$
+		\item $[6;10)\cup[-2;12]$
+		\item $[-3;10]\cup(8;+ \infty)$
+		\item $[-2;4)\cup[-8;5]$
+		\item $[-12;0]\cup[-6;3]$
+		\item $[-13;10)\cup(-8;14]$
+		\item $(-13;-2]\cup[-6;2]$
+		\item $(-10;5]\cup[2;11)$
+		\item $[0;10]\cup[6;10)$
+		\item $(-12;-1]\cup(-7;3)$
+		\item $(-11;8]\cup(-\infty;13]$
+		\item $[-4;9)\cup(7;+ \infty)$
+		\item $[1;8]\cup[-3;+ \infty)$
+		\item $(-13;4)\cup[1;5]$
+		\item $(-8;4]\cup[-7;6)$
+		\item $(9;10]\cup[7;11)$
+		\item $(-8;1)\cup(-\infty;11]$
+		\item $(-13;-5)\cup(-9;-1]$
+		\item $[6;12)\cup(-10;13)$
+		\item $(-13;11)\cup[1;+ \infty)$
+		\item $[-13;-5)\cup[-5;12)$
+		\item $[-11;1]\cup(-3;7)$
+		\item $(-10;-4]\cup[-11;12]$
+		\item $(-9;1]\cup[-3;1]$
+		\item $[-14;-12)\cup(-12;13)$
+		\item $[-11;1)\cup(-12;1]$
+		\item $(-8;-5]\cup(-10;-5]$
+		\item $[5;9]\cup(-3;13)$
+		\item $(-10;-2]\cup(-3;0)$
+		\item $(-9;-4)\cup[-8;2)$
+		\item $[-9;0]\cup(-\infty;3)$
+		\item $[-14;-1)\cup[-10;3]$
+	\end{enumerate}
+\end{ex}
+
+\begin{ex}
+	Vẽ trục và tìm:
+	\begin{enumerate}
+		\item $[-9;-5)\cup[-14;-2]\cup[-6;5)$
+		\item $(4;9]\cup(-2;+ \infty)\cup(7;12)$
+		\item $(-5;6]\cup[-7;12)\cup(5;+ \infty)$
+		\item $[1;6]\cup[-6;+ \infty)\cup[3;9]$
+		\item $[0;12]\cup(2;14]\cup(10;11)$
+		\item $(-\infty;8)\cup(-10;9]\cup(-9;0]$
+		\item $[-10;-5)\cup(-12;7]\cup[-7;-3)$
+		\item $(-7;7]\cup(2;11]\cup(6;8]$
+		\item $[-13;4)\cup[-11;13)\cup[-4;5]$
+		\item $[-7;-5]\cup[-11;4)\cup(-8;4]$
+		\item $(-2;-1)\cup(-6;3]\cup[-5;9)$
+		\item $[-5;4)\cup(-8;4)\cup(-7;-2]$
+		\item $[3;6)\cup(-\infty;13]\cup[-1;3]$
+		\item $[2;4)\cup[-5;8)\cup(2;+ \infty)$
+		\item $[-13;6)\cup(-10;6)\cup(-7;+ \infty)$
+		\item $(-6;11)\cup(-5;13]\cup[5;12)$
+		\item $(0;1]\cup[-12;12)\cup[-5;2)$
+		\item $[-9;8)\cup(-1;9)\cup[7;13]$
+		\item $(-8;0]\cup[-9;0]\cup[-2;11)$
+		\item $[4;8)\cup(-13;10]\cup(-12;14]$
+		\item $[-11;10]\cup[-12;10]\cup(-11;-2)$
+		\item $[0;6)\cup[2;9]\cup[4;7]$
+		\item $(-2;7]\cup(-13;7]\cup[-4;13]$
+		\item $(3;4)\cup(-2;4)\cup[0;8]$
+		\item $[-14;8)\cup(-13;+ \infty)\cup[-6;3]$
+		\item $[-6;3)\cup[-9;5]\cup[-3;10]$
+		\item $(-13;3]\cup(-9;9)\cup(2;13]$
+		\item $[-14;4)\cup(-11;5]\cup(-3;5)$
+		\item $(-10;-2)\cup(-10;3)\cup[-8;0]$
+		\item $[-9;8)\cup[-7;14]\cup[-5;13)$
+		\item $(-\infty;6)\cup[-2;13]\cup(3;6]$
+		\item $[-10;3]\cup(-10;8]\cup(-8;0)$
+		\item $(-1;10)\cup(-9;10]\cup[-7;-2]$
+		\item $(-12;7)\cup[-10;9)\cup(2;6)$
+		\item $[-2;2)\cup[-9;7)\cup[-6;7]$
+		\item $(7;13)\cup[-8;13]\cup(2;6)$
+		\item $[3;9)\cup[-10;10)\cup(1;4)$
+		\item $[6;8]\cup(-10;10]\cup(3;+ \infty)$
+		\item $[-6;8]\cup(-5;11]\cup(1;+ \infty)$
+		\item $(-1;3]\cup[-12;7]\cup(2;9]$
+		\item $(-5;9]\cup(-8;10)\cup(-5;-4]$
+		\item $[2;3)\cup[-14;12)\cup[-6;-2]$
+		\item $(-9;4)\cup[-10;14]\cup(-6;13)$
+		\item $[-14;13]\cup(-8;13]\cup[-7;+ \infty)$
+		\item $[-1;6)\cup[1;13)\cup[4;13]$
+		\item $[-1;10)\cup(-9;10)\cup(-1;+ \infty)$
+		\item $[-10;-7)\cup(-\infty;-1]\cup(-11;-3)$
+		\item $(0;3)\cup[-9;5)\cup(-8;-7]$
+		\item $(-4;9)\cup(-5;9)\cup[-2;5]$
+		\item $(-\infty;7]\cup[-8;11)\cup(-6;14]$
+	\end{enumerate}
+\end{ex}
+
+\begin{ex}
+	Vẽ trục và tìm:
+	\begin{enumerate}
+		\item $(-\infty;4)\cap(-10;10]$
+		\item $(-12;-3]\cap[-5;3)$
+		\item $[11;12]\cap[4;13)$
+		\item $(-7;8]\cap(3;9]$
+		\item $(-3;3)\cap[0;10)$
+		\item $[-12;14]\cap(-8;+ \infty)$
+		\item $(2;4)\cap(2;5)$
+		\item $(-5;-4)\cap[-4;-3]$
+		\item $[-5;7]\cap(-13;+ \infty)$
+		\item $(-13;-5)\cap(-12;3)$
+		\item $[-4;6]\cap(-1;11]$
+		\item $[-6;10)\cap[-3;14]$
+		\item $[0;1)\cap[-4;2]$
+		\item $[8;11]\cap[-4;11)$
+		\item $[-1;10)\cap[10;13)$
+		\item $(-8;-2)\cap(-9;5]$
+		\item $(11;13]\cap[-6;13)$
+		\item $[-12;-8)\cap(-13;5)$
+		\item $[-13;7]\cap[-6;7)$
+		\item $[2;8]\cap[-13;9]$
+		\item $(-10;1)\cap[-9;8)$
+		\item $[-4;-1]\cap(-1;1]$
+		\item $(8;14]\cap[6;14]$
+		\item $[-1;1]\cap[-2;4)$
+		\item $(6;13)\cap(1;14]$
+		\item $[0;4)\cap[2;8)$
+		\item $[-13;-5)\cap(-9;-3)$
+		\item $[-9;10]\cap(-2;12]$
+		\item $(-12;4)\cap[0;11)$
+		\item $(-1;7]\cap(-12;13]$
+		\item $(0;5]\cap[-1;6]$
+		\item $(-1;8]\cap[1;11)$
+		\item $(-10;-1]\cap(-3;13)$
+		\item $[2;5]\cap(0;7]$
+		\item $[0;5]\cap[-13;+ \infty)$
+		\item $[-7;5]\cap[0;11]$
+		\item $[-10;2]\cap(-1;13]$
+		\item $(8;11)\cap(-1;13)$
+		\item $[-9;3)\cap(-10;3)$
+		\item $[4;10)\cap[-5;12)$
+		\item $[-12;4)\cap(1;9]$
+		\item $[-1;7)\cap(0;10]$
+		\item $[-14;11)\cap(-5;12]$
+		\item $(2;11)\cap[5;12]$
+		\item $[-13;-5)\cap(-13;-2)$
+		\item $(-\infty;4]\cap[-10;8]$
+		\item $(-8;-5]\cap(-8;5)$
+		\item $[-3;5]\cap[-9;8)$
+		\item $(-3;6]\cap(-3;10]$
+		\item $(-10;13]\cap[7;+ \infty)$
+	\end{enumerate}
+\end{ex}
+
+\begin{ex}
+	Vẽ trục và tìm:
+	\begin{enumerate}
+		\item $[1;7]\cap(-10;11]\cap[-9;-5]$
+		\item $(1;3)\cap[-11;9)\cap(-2;3)$
+		\item $[-12;11]\cap[-8;12)\cap(-4;9]$
+		\item $[-3;12)\cap[-6;13]\cap[-4;9]$
+		\item $(-8;1]\cap[-7;+ \infty)\cap[0;6)$
+		\item $[-13;9]\cap[-4;13)\cap[0;13]$
+		\item $(-11;5)\cap(-1;10]\cap[4;8]$
+		\item $[-12;6)\cap(-7;10]\cap[-6;-2]$
+		\item $[-1;1]\cap[-11;9)\cap[-8;-4)$
+		\item $(-6;1]\cap(-11;2)\cap[-6;0]$
+		\item $[-12;-11]\cap[-14;6]\cap[-13;5)$
+		\item $[-12;7]\cap[-6;8]\cap(-2;11)$
+		\item $(-4;10)\cap[-3;11]\cap[0;6)$
+		\item $[-7;4)\cap[-12;11)\cap[-8;-5]$
+		\item $(-7;-3)\cap[-9;3)\cap(-4;3]$
+		\item $(-8;5]\cap[-7;6]\cap[-3;8]$
+		\item $(-7;6]\cap[-8;10]\cap(-6;9]$
+		\item $(0;5]\cap(-13;7)\cap[4;8)$
+		\item $(-8;5]\cap[-6;11)\cap(1;14]$
+		\item $(-13;9)\cap(-\infty;13]\cap(-5;6]$
+		\item $(-11;9]\cap[-6;9)\cap(-4;8]$
+		\item $(-5;9]\cap[-12;12]\cap[3;7]$
+		\item $[-13;0)\cap[-14;11)\cap[-4;1)$
+		\item $(-13;-1)\cap(-\infty;11)\cap[-2;9)$
+		\item $[-9;0)\cap[-11;1]\cap[-4;2]$
+		\item $(-8;7]\cap[-12;8)\cap(6;7]$
+		\item $[-10;8)\cap[1;10]\cap[6;8]$
+		\item $[-3;6)\cap(-10;8)\cap[4;13]$
+		\item $[-12;4)\cap(-13;11]\cap[-7;+ \infty)$
+		\item $[-7;-3)\cap[-13;12)\cap[-7;-3)$
+		\item $(-7;8]\cap(-\infty;11)\cap(-1;3)$
+		\item $(-6;4]\cap(-2;4]\cap[3;8)$
+		\item $[2;6)\cap(0;+ \infty)\cap[4;10]$
+		\item $(-4;9]\cap(-5;11]\cap[-1;7]$
+		\item $[-4;5]\cap(-7;7)\cap[-3;11)$
+		\item $(-9;-7)\cap(-\infty;9]\cap[-8;5)$
+		\item $(-13;-6)\cap[-12;12)\cap[-10;4)$
+		\item $(-9;-4]\cap(-\infty;4]\cap(-9;-3]$
+		\item $(7;10)\cap(2;13]\cap(4;12)$
+		\item $[-9;13]\cap(2;13)\cap[3;7)$
+		\item $[-3;3)\cap[-11;13]\cap(-3;2)$
+		\item $(-13;2]\cap[-2;+ \infty)\cap(0;7]$
+		\item $[-10;5)\cap(-4;10)\cap(-2;5]$
+		\item $[-14;7)\cap(-6;7)\cap[-1;8]$
+		\item $(-10;3)\cap(-13;10)\cap[0;12]$
+		\item $[-1;3)\cap(-3;9]\cap[0;9)$
+		\item $[-7;10]\cap[-10;12)\cap(-3;9]$
+		\item $(6;+ \infty)\cap(-11;14]\cap[0;1]$
+		\item $[-11;2]\cap[-7;5)\cap(-4;10)$
+		\item $(-2;12)\cap(-5;13)\cap[-3;5]$
+	\end{enumerate}
+\end{ex}
+
+	
+	
+	
+	
+	
+	
+\Closesolutionfile{ans}
+\Closesolutionfile{ansbook}
+\end{document}
+\newpage
+\setcounter{page}{1}
+\begin{center}
+{\bf\Large ĐÁP ÁN}\vspace{12pt}
+\begin{multicols}{10}
+	\input{ans/DA}
+\end{multicols}
+\end{center}
+\newpage
+\setcounter{page}{1}
+\begin{center}
+{\bf\Large LỜI GIẢI CHI TIẾT}
+\end{center}
+\input{ans/LG}
+\end{document}	
