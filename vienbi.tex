@@ -1,0 +1,942 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,tkz-tab}
+\usepackage{fancyhdr}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=1.5cm] {geometry}
+\usepackage[loigiai]{ex_test}
+\usetikzlibrary{calc,angles}
+\renewcommand{\TrueEX}{\stepcounter{dapan}{\small\circled{\textbf{\Alph{dapan}}}}\ignorespaces}
+\renewcommand{\FalseEX}{\stepcounter{dapan}{\small\circled{\textbf{\Alph{dapan}}}}\ignorespaces}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewtheorem{ex}{\color{blue}Câu}
+\begin{document}
+\Opensolutionfile{ansbook}[ans/LG]
+\Opensolutionfile{ans}[ans/DA]
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{Trang \thepage}
+\begin{center}
+{\bf\Large BÀI TẬP SỐ VỀ NHÀ}
+\end{center}
+\lhead{Biên soạn:  VÕ THANH PHONG}
+\rhead{THPT }
+\lfoot{Số điện thoại }
+\begin{ex}
+Đức có 84 viên bi. Đức cho Thanh 13 viên và cho Cường 18 viên bi. Vậy Đức còn lại số viên bi là
+ \choice 
+{$89$ viên bi}
+{$31$ viên bi}
+{\True $53$ viên bi}
+{$71$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $84-13-18=53$.}
+\end{ex}
+\begin{ex}
+Trường có 76 viên bi. Trường cho Phương 26 viên và cho Dũng 21 viên bi. Vậy Trường còn lại số viên bi là
+ \choice 
+{$50$ viên bi}
+{$71$ viên bi}
+{$47$ viên bi}
+{\True $29$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $76-26-21=29$.}
+\end{ex}
+\begin{ex}
+Dũng có 79 viên bi. Dũng cho Linh 56 viên và cho Mai 9 viên bi. Vậy Dũng còn lại số viên bi là
+ \choice 
+{$23$ viên bi}
+{\True $14$ viên bi}
+{$32$ viên bi}
+{$65$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $79-56-9=14$.}
+\end{ex}
+\begin{ex}
+Trường có 88 viên bi. Trường cho Dũng 14 viên và cho Lan 44 viên bi. Vậy Trường còn lại số viên bi là
+ \choice 
+{\True $30$ viên bi}
+{$58$ viên bi}
+{$118$ viên bi}
+{$74$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $88-14-44=30$.}
+\end{ex}
+\begin{ex}
+Hoàng có 90 viên bi. Hoàng cho Cường 13 viên và cho Hạnh 72 viên bi. Vậy Hoàng còn lại số viên bi là
+ \choice 
+{$85$ viên bi}
+{\True $5$ viên bi}
+{$77$ viên bi}
+{$149$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $90-13-72=5$.}
+\end{ex}
+\begin{ex}
+Thanh có 40 viên bi. Thanh cho Ngọc 35 viên và cho Mai 4 viên bi. Vậy Thanh còn lại số viên bi là
+ \choice 
+{$9$ viên bi}
+{$5$ viên bi}
+{\True $1$ viên bi}
+{$39$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $40-35-4=1$.}
+\end{ex}
+\begin{ex}
+Cường có 98 viên bi. Cường cho Đức 8 viên và cho Trường 64 viên bi. Vậy Cường còn lại số viên bi là
+ \choice 
+{$72$ viên bi}
+{$154$ viên bi}
+{$90$ viên bi}
+{\True $26$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $98-8-64=26$.}
+\end{ex}
+\begin{ex}
+Dũng có 78 viên bi. Dũng cho Thúy 21 viên và cho Tuấn 32 viên bi. Vậy Dũng còn lại số viên bi là
+ \choice 
+{\True $25$ viên bi}
+{$53$ viên bi}
+{$57$ viên bi}
+{$89$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $78-21-32=25$.}
+\end{ex}
+\begin{ex}
+Minh có 91 viên bi. Minh cho Huy 4 viên và cho Anh 11 viên bi. Vậy Minh còn lại số viên bi là
+ \choice 
+{$15$ viên bi}
+{$87$ viên bi}
+{\True $76$ viên bi}
+{$98$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $91-4-11=76$.}
+\end{ex}
+\begin{ex}
+Hạnh có 69 viên bi. Hạnh cho Phương 44 viên và cho Cường 1 viên bi. Vậy Hạnh còn lại số viên bi là
+ \choice 
+{$25$ viên bi}
+{\True $24$ viên bi}
+{$45$ viên bi}
+{$26$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $69-44-1=24$.}
+\end{ex}
+\begin{ex}
+Lan có 72 viên bi. Lan cho Dũng 39 viên và cho Huy 13 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{$46$ viên bi}
+{\True $20$ viên bi}
+{$52$ viên bi}
+{$33$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $72-39-13=20$.}
+\end{ex}
+\begin{ex}
+Huy có 76 viên bi. Huy cho Đức 17 viên và cho Hoàng 30 viên bi. Vậy Huy còn lại số viên bi là
+ \choice 
+{$89$ viên bi}
+{$47$ viên bi}
+{\True $29$ viên bi}
+{$59$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $76-17-30=29$.}
+\end{ex}
+\begin{ex}
+Tuấn có 64 viên bi. Tuấn cho Hoàng 41 viên và cho Lan 9 viên bi. Vậy Tuấn còn lại số viên bi là
+ \choice 
+{$32$ viên bi}
+{$23$ viên bi}
+{\True $14$ viên bi}
+{$50$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $64-41-9=14$.}
+\end{ex}
+\begin{ex}
+Hoàng có 84 viên bi. Hoàng cho Hương 14 viên và cho Ngọc 14 viên bi. Vậy Hoàng còn lại số viên bi là
+ \choice 
+{$28$ viên bi}
+{$70$ viên bi}
+{$84$ viên bi}
+{\True $56$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $84-14-14=56$.}
+\end{ex}
+\begin{ex}
+Thúy có 98 viên bi. Thúy cho Ngọc 47 viên và cho Trường 28 viên bi. Vậy Thúy còn lại số viên bi là
+ \choice 
+{$79$ viên bi}
+{$75$ viên bi}
+{$51$ viên bi}
+{\True $23$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $98-47-28=23$.}
+\end{ex}
+\begin{ex}
+Thúy có 74 viên bi. Thúy cho Lan 21 viên và cho Anh 20 viên bi. Vậy Thúy còn lại số viên bi là
+ \choice 
+{$41$ viên bi}
+{$53$ viên bi}
+{$73$ viên bi}
+{\True $33$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $74-21-20=33$.}
+\end{ex}
+\begin{ex}
+Ngọc có 65 viên bi. Ngọc cho Hương 23 viên và cho Linh 33 viên bi. Vậy Ngọc còn lại số viên bi là
+ \choice 
+{\True $9$ viên bi}
+{$56$ viên bi}
+{$75$ viên bi}
+{$42$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $65-23-33=9$.}
+\end{ex}
+\begin{ex}
+Thúy có 88 viên bi. Thúy cho Trường 35 viên và cho Thanh 11 viên bi. Vậy Thúy còn lại số viên bi là
+ \choice 
+{\True $42$ viên bi}
+{$64$ viên bi}
+{$53$ viên bi}
+{$46$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $88-35-11=42$.}
+\end{ex}
+\begin{ex}
+Cường có 93 viên bi. Cường cho Trường 21 viên và cho Hương 56 viên bi. Vậy Cường còn lại số viên bi là
+ \choice 
+{$128$ viên bi}
+{\True $16$ viên bi}
+{$72$ viên bi}
+{$77$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $93-21-56=16$.}
+\end{ex}
+\begin{ex}
+Dũng có 89 viên bi. Dũng cho Minh 33 viên và cho Cường 9 viên bi. Vậy Dũng còn lại số viên bi là
+ \choice 
+{\True $47$ viên bi}
+{$42$ viên bi}
+{$65$ viên bi}
+{$56$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $89-33-9=47$.}
+\end{ex}
+\begin{ex}
+Tuấn có 63 viên bi. Tuấn cho Thanh 13 viên và cho Lan 44 viên bi. Vậy Tuấn còn lại số viên bi là
+ \choice 
+{\True $6$ viên bi}
+{$57$ viên bi}
+{$50$ viên bi}
+{$94$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $63-13-44=6$.}
+\end{ex}
+\begin{ex}
+Thanh có 73 viên bi. Thanh cho Hoàng 11 viên và cho Lan 37 viên bi. Vậy Thanh còn lại số viên bi là
+ \choice 
+{$62$ viên bi}
+{\True $25$ viên bi}
+{$48$ viên bi}
+{$99$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $73-11-37=25$.}
+\end{ex}
+\begin{ex}
+Anh có 94 viên bi. Anh cho Linh 9 viên và cho Huy 79 viên bi. Vậy Anh còn lại số viên bi là
+ \choice 
+{$85$ viên bi}
+{$164$ viên bi}
+{$88$ viên bi}
+{\True $6$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $94-9-79=6$.}
+\end{ex}
+\begin{ex}
+Huy có 50 viên bi. Huy cho Dũng 19 viên và cho Lan 14 viên bi. Vậy Huy còn lại số viên bi là
+ \choice 
+{$45$ viên bi}
+{$31$ viên bi}
+{$33$ viên bi}
+{\True $17$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $50-19-14=17$.}
+\end{ex}
+\begin{ex}
+Linh có 88 viên bi. Linh cho Cường 42 viên và cho Hạnh 11 viên bi. Vậy Linh còn lại số viên bi là
+ \choice 
+{$46$ viên bi}
+{$53$ viên bi}
+{$57$ viên bi}
+{\True $35$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $88-42-11=35$.}
+\end{ex}
+\begin{ex}
+Dũng có 62 viên bi. Dũng cho Cường 5 viên và cho Mai 15 viên bi. Vậy Dũng còn lại số viên bi là
+ \choice 
+{$20$ viên bi}
+{$72$ viên bi}
+{$57$ viên bi}
+{\True $42$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $62-5-15=42$.}
+\end{ex}
+\begin{ex}
+Tuấn có 96 viên bi. Tuấn cho Phương 26 viên và cho Hoàng 26 viên bi. Vậy Tuấn còn lại số viên bi là
+ \choice 
+{$96$ viên bi}
+{\True $44$ viên bi}
+{$52$ viên bi}
+{$70$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $96-26-26=44$.}
+\end{ex}
+\begin{ex}
+Anh có 88 viên bi. Anh cho Huy 38 viên và cho Linh 26 viên bi. Vậy Anh còn lại số viên bi là
+ \choice 
+{$50$ viên bi}
+{\True $24$ viên bi}
+{$76$ viên bi}
+{$64$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $88-38-26=24$.}
+\end{ex}
+\begin{ex}
+Mai có 72 viên bi. Mai cho Thu 39 viên và cho Lan 3 viên bi. Vậy Mai còn lại số viên bi là
+ \choice 
+{\True $30$ viên bi}
+{$36$ viên bi}
+{$33$ viên bi}
+{$42$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $72-39-3=30$.}
+\end{ex}
+\begin{ex}
+Dũng có 13 viên bi. Dũng cho Ngọc 5 viên và cho Hoàng 5 viên bi. Vậy Dũng còn lại số viên bi là
+ \choice 
+{\True $3$ viên bi}
+{$10$ viên bi}
+{$13$ viên bi}
+{$8$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $13-5-5=3$.}
+\end{ex}
+\begin{ex}
+Ngọc có 95 viên bi. Ngọc cho Minh 10 viên và cho Cường 50 viên bi. Vậy Ngọc còn lại số viên bi là
+ \choice 
+{$135$ viên bi}
+{$85$ viên bi}
+{\True $35$ viên bi}
+{$60$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $95-10-50=35$.}
+\end{ex}
+\begin{ex}
+Lan có 56 viên bi. Lan cho Thanh 8 viên và cho Ngọc 13 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{\True $35$ viên bi}
+{$21$ viên bi}
+{$61$ viên bi}
+{$48$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $56-8-13=35$.}
+\end{ex}
+\begin{ex}
+Tuấn có 50 viên bi. Tuấn cho Hoàng 12 viên và cho Ngọc 2 viên bi. Vậy Tuấn còn lại số viên bi là
+ \choice 
+{\True $36$ viên bi}
+{$40$ viên bi}
+{$38$ viên bi}
+{$14$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $50-12-2=36$.}
+\end{ex}
+\begin{ex}
+Linh có 55 viên bi. Linh cho Hương 7 viên và cho Minh 37 viên bi. Vậy Linh còn lại số viên bi là
+ \choice 
+{$44$ viên bi}
+{$48$ viên bi}
+{\True $11$ viên bi}
+{$85$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $55-7-37=11$.}
+\end{ex}
+\begin{ex}
+Anh có 97 viên bi. Anh cho Mai 32 viên và cho Linh 54 viên bi. Vậy Anh còn lại số viên bi là
+ \choice 
+{\True $11$ viên bi}
+{$119$ viên bi}
+{$86$ viên bi}
+{$65$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $97-32-54=11$.}
+\end{ex}
+\begin{ex}
+Thúy có 63 viên bi. Thúy cho Thanh 28 viên và cho Lan 10 viên bi. Vậy Thúy còn lại số viên bi là
+ \choice 
+{\True $25$ viên bi}
+{$38$ viên bi}
+{$45$ viên bi}
+{$35$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $63-28-10=25$.}
+\end{ex}
+\begin{ex}
+Linh có 98 viên bi. Linh cho Mai 48 viên và cho Thanh 1 viên bi. Vậy Linh còn lại số viên bi là
+ \choice 
+{\True $49$ viên bi}
+{$50$ viên bi}
+{\True $49$ viên bi}
+{$51$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $98-48-1=49$.}
+\end{ex}
+\begin{ex}
+Lan có 67 viên bi. Lan cho Thúy 27 viên và cho Cường 14 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{\True $26$ viên bi}
+{$40$ viên bi}
+{$41$ viên bi}
+{$54$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $67-27-14=26$.}
+\end{ex}
+\begin{ex}
+Tuấn có 88 viên bi. Tuấn cho Mai 5 viên và cho Hoàng 64 viên bi. Vậy Tuấn còn lại số viên bi là
+ \choice 
+{$69$ viên bi}
+{\True $19$ viên bi}
+{$147$ viên bi}
+{$83$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $88-5-64=19$.}
+\end{ex}
+\begin{ex}
+Thu có 44 viên bi. Thu cho Thanh 6 viên và cho Huy 6 viên bi. Vậy Thu còn lại số viên bi là
+ \choice 
+{$44$ viên bi}
+{$12$ viên bi}
+{\True $32$ viên bi}
+{$38$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $44-6-6=32$.}
+\end{ex}
+\begin{ex}
+Hoàng có 45 viên bi. Hoàng cho Quang 9 viên và cho Hạnh 23 viên bi. Vậy Hoàng còn lại số viên bi là
+ \choice 
+{$36$ viên bi}
+{\True $13$ viên bi}
+{$32$ viên bi}
+{$59$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $45-9-23=13$.}
+\end{ex}
+\begin{ex}
+Mai có 74 viên bi. Mai cho Linh 4 viên và cho Anh 42 viên bi. Vậy Mai còn lại số viên bi là
+ \choice 
+{\True $28$ viên bi}
+{$70$ viên bi}
+{$112$ viên bi}
+{$46$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $74-4-42=28$.}
+\end{ex}
+\begin{ex}
+Hạnh có 83 viên bi. Hạnh cho Quang 14 viên và cho Trường 53 viên bi. Vậy Hạnh còn lại số viên bi là
+ \choice 
+{$67$ viên bi}
+{\True $16$ viên bi}
+{$122$ viên bi}
+{$69$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $83-14-53=16$.}
+\end{ex}
+\begin{ex}
+Mai có 81 viên bi. Mai cho Tuấn 68 viên và cho Lan 3 viên bi. Vậy Mai còn lại số viên bi là
+ \choice 
+{$71$ viên bi}
+{$16$ viên bi}
+{\True $10$ viên bi}
+{$13$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $81-68-3=10$.}
+\end{ex}
+\begin{ex}
+Lan có 78 viên bi. Lan cho Trường 35 viên và cho Huy 6 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{$49$ viên bi}
+{\True $37$ viên bi}
+{$43$ viên bi}
+{$41$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $78-35-6=37$.}
+\end{ex}
+\begin{ex}
+Thúy có 63 viên bi. Thúy cho Tuấn 41 viên và cho Huy 16 viên bi. Vậy Thúy còn lại số viên bi là
+ \choice 
+{$38$ viên bi}
+{$22$ viên bi}
+{\True $6$ viên bi}
+{$57$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $63-41-16=6$.}
+\end{ex}
+\begin{ex}
+Ngọc có 84 viên bi. Ngọc cho Minh 58 viên và cho Cường 5 viên bi. Vậy Ngọc còn lại số viên bi là
+ \choice 
+{\True $21$ viên bi}
+{$63$ viên bi}
+{$31$ viên bi}
+{$26$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $84-58-5=21$.}
+\end{ex}
+\begin{ex}
+Thu có 97 viên bi. Thu cho Minh 38 viên và cho Thanh 20 viên bi. Vậy Thu còn lại số viên bi là
+ \choice 
+{$79$ viên bi}
+{$58$ viên bi}
+{\True $39$ viên bi}
+{$59$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $97-38-20=39$.}
+\end{ex}
+\begin{ex}
+Hoàng có 81 viên bi. Hoàng cho Anh 9 viên và cho Tuấn 57 viên bi. Vậy Hoàng còn lại số viên bi là
+ \choice 
+{\True $15$ viên bi}
+{$72$ viên bi}
+{$66$ viên bi}
+{$129$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $81-9-57=15$.}
+\end{ex}
+\begin{ex}
+Hương có 67 viên bi. Hương cho Ngọc 51 viên và cho Thúy 6 viên bi. Vậy Hương còn lại số viên bi là
+ \choice 
+{$22$ viên bi}
+{\True $10$ viên bi}
+{$57$ viên bi}
+{$16$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $67-51-6=10$.}
+\end{ex}
+\begin{ex}
+Hoàng có 71 viên bi. Hoàng cho Mai 43 viên và cho Dũng 16 viên bi. Vậy Hoàng còn lại số viên bi là
+ \choice 
+{$44$ viên bi}
+{$59$ viên bi}
+{\True $12$ viên bi}
+{$28$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $71-43-16=12$.}
+\end{ex}
+\begin{ex}
+Phương có 41 viên bi. Phương cho Dũng 15 viên và cho Đức 12 viên bi. Vậy Phương còn lại số viên bi là
+ \choice 
+{\True $14$ viên bi}
+{$38$ viên bi}
+{$26$ viên bi}
+{$27$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $41-15-12=14$.}
+\end{ex}
+\begin{ex}
+Huy có 47 viên bi. Huy cho Thúy 23 viên và cho Hạnh 1 viên bi. Vậy Huy còn lại số viên bi là
+ \choice 
+{$24$ viên bi}
+{$25$ viên bi}
+{\True $23$ viên bi}
+{$24$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $47-23-1=23$.}
+\end{ex}
+\begin{ex}
+Phương có 74 viên bi. Phương cho Tuấn 13 viên và cho Anh 57 viên bi. Vậy Phương còn lại số viên bi là
+ \choice 
+{$61$ viên bi}
+{$118$ viên bi}
+{$70$ viên bi}
+{\True $4$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $74-13-57=4$.}
+\end{ex}
+\begin{ex}
+Lan có 94 viên bi. Lan cho Trường 25 viên và cho Dũng 21 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{$69$ viên bi}
+{\True $48$ viên bi}
+{$46$ viên bi}
+{$90$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $94-25-21=48$.}
+\end{ex}
+\begin{ex}
+Anh có 46 viên bi. Anh cho Phương 5 viên và cho Tuấn 20 viên bi. Vậy Anh còn lại số viên bi là
+ \choice 
+{$41$ viên bi}
+{\True $21$ viên bi}
+{$61$ viên bi}
+{$25$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $46-5-20=21$.}
+\end{ex}
+\begin{ex}
+Tuấn có 99 viên bi. Tuấn cho Hạnh 2 viên và cho Hoàng 10 viên bi. Vậy Tuấn còn lại số viên bi là
+ \choice 
+{$97$ viên bi}
+{\True $87$ viên bi}
+{$107$ viên bi}
+{$12$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $99-2-10=87$.}
+\end{ex}
+\begin{ex}
+Anh có 57 viên bi. Anh cho Mai 2 viên và cho Thanh 13 viên bi. Vậy Anh còn lại số viên bi là
+ \choice 
+{$68$ viên bi}
+{$55$ viên bi}
+{\True $42$ viên bi}
+{$15$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $57-2-13=42$.}
+\end{ex}
+\begin{ex}
+Quang có 64 viên bi. Quang cho Anh 3 viên và cho Lan 32 viên bi. Vậy Quang còn lại số viên bi là
+ \choice 
+{\True $29$ viên bi}
+{$61$ viên bi}
+{$35$ viên bi}
+{$93$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $64-3-32=29$.}
+\end{ex}
+\begin{ex}
+Huy có 94 viên bi. Huy cho Linh 33 viên và cho Thu 17 viên bi. Vậy Huy còn lại số viên bi là
+ \choice 
+{$50$ viên bi}
+{\True $44$ viên bi}
+{$61$ viên bi}
+{$78$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $94-33-17=44$.}
+\end{ex}
+\begin{ex}
+Linh có 65 viên bi. Linh cho Quang 11 viên và cho Dũng 41 viên bi. Vậy Linh còn lại số viên bi là
+ \choice 
+{\True $13$ viên bi}
+{$95$ viên bi}
+{$54$ viên bi}
+{$52$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $65-11-41=13$.}
+\end{ex}
+\begin{ex}
+Lan có 74 viên bi. Lan cho Linh 22 viên và cho Anh 22 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{$74$ viên bi}
+{$52$ viên bi}
+{$44$ viên bi}
+{\True $30$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $74-22-22=30$.}
+\end{ex}
+\begin{ex}
+Ngọc có 94 viên bi. Ngọc cho Linh 23 viên và cho Hương 5 viên bi. Vậy Ngọc còn lại số viên bi là
+ \choice 
+{$76$ viên bi}
+{\True $66$ viên bi}
+{$28$ viên bi}
+{$71$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $94-23-5=66$.}
+\end{ex}
+\begin{ex}
+Linh có 45 viên bi. Linh cho Trường 39 viên và cho Mai 1 viên bi. Vậy Linh còn lại số viên bi là
+ \choice 
+{$40$ viên bi}
+{\True $5$ viên bi}
+{$6$ viên bi}
+{$7$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $45-39-1=5$.}
+\end{ex}
+\begin{ex}
+Ngọc có 76 viên bi. Ngọc cho Minh 41 viên và cho Trường 3 viên bi. Vậy Ngọc còn lại số viên bi là
+ \choice 
+{$44$ viên bi}
+{$35$ viên bi}
+{$38$ viên bi}
+{\True $32$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $76-41-3=32$.}
+\end{ex}
+\begin{ex}
+Thanh có 69 viên bi. Thanh cho Cường 20 viên và cho Hương 3 viên bi. Vậy Thanh còn lại số viên bi là
+ \choice 
+{$49$ viên bi}
+{$52$ viên bi}
+{$23$ viên bi}
+{\True $46$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $69-20-3=46$.}
+\end{ex}
+\begin{ex}
+Hạnh có 91 viên bi. Hạnh cho Thúy 9 viên và cho Minh 31 viên bi. Vậy Hạnh còn lại số viên bi là
+ \choice 
+{$113$ viên bi}
+{\True $51$ viên bi}
+{$82$ viên bi}
+{$40$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $91-9-31=51$.}
+\end{ex}
+\begin{ex}
+Minh có 95 viên bi. Minh cho Thu 4 viên và cho Anh 2 viên bi. Vậy Minh còn lại số viên bi là
+ \choice 
+{$6$ viên bi}
+{$91$ viên bi}
+{$93$ viên bi}
+{\True $89$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $95-4-2=89$.}
+\end{ex}
+\begin{ex}
+Cường có 80 viên bi. Cường cho Thanh 9 viên và cho Linh 42 viên bi. Vậy Cường còn lại số viên bi là
+ \choice 
+{$71$ viên bi}
+{$51$ viên bi}
+{\True $29$ viên bi}
+{$113$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $80-9-42=29$.}
+\end{ex}
+\begin{ex}
+Quang có 80 viên bi. Quang cho Minh 24 viên và cho Thu 16 viên bi. Vậy Quang còn lại số viên bi là
+ \choice 
+{$56$ viên bi}
+{\True $40$ viên bi}
+{$72$ viên bi}
+{\True $40$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $80-24-16=40$.}
+\end{ex}
+\begin{ex}
+Lan có 96 viên bi. Lan cho Anh 76 viên và cho Thúy 4 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{$80$ viên bi}
+{\True $16$ viên bi}
+{$24$ viên bi}
+{$20$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $96-76-4=16$.}
+\end{ex}
+\begin{ex}
+Phương có 30 viên bi. Phương cho Linh 7 viên và cho Lan 4 viên bi. Vậy Phương còn lại số viên bi là
+ \choice 
+{\True $19$ viên bi}
+{$27$ viên bi}
+{$11$ viên bi}
+{$23$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $30-7-4=19$.}
+\end{ex}
+\begin{ex}
+Ngọc có 79 viên bi. Ngọc cho Tuấn 40 viên và cho Hoàng 21 viên bi. Vậy Ngọc còn lại số viên bi là
+ \choice 
+{$61$ viên bi}
+{$39$ viên bi}
+{\True $18$ viên bi}
+{$60$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $79-40-21=18$.}
+\end{ex}
+\begin{ex}
+Lan có 91 viên bi. Lan cho Trường 2 viên và cho Cường 22 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{$111$ viên bi}
+{$24$ viên bi}
+{$89$ viên bi}
+{\True $67$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $91-2-22=67$.}
+\end{ex}
+\begin{ex}
+Minh có 77 viên bi. Minh cho Anh 37 viên và cho Thu 8 viên bi. Vậy Minh còn lại số viên bi là
+ \choice 
+{\True $32$ viên bi}
+{$45$ viên bi}
+{$40$ viên bi}
+{$48$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $77-37-8=32$.}
+\end{ex}
+\begin{ex}
+Minh có 64 viên bi. Minh cho Thu 14 viên và cho Phương 42 viên bi. Vậy Minh còn lại số viên bi là
+ \choice 
+{$92$ viên bi}
+{$50$ viên bi}
+{\True $8$ viên bi}
+{$56$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $64-14-42=8$.}
+\end{ex}
+\begin{ex}
+Phương có 89 viên bi. Phương cho Hạnh 35 viên và cho Quang 26 viên bi. Vậy Phương còn lại số viên bi là
+ \choice 
+{$54$ viên bi}
+{$80$ viên bi}
+{\True $28$ viên bi}
+{$61$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $89-35-26=28$.}
+\end{ex}
+\begin{ex}
+Huy có 44 viên bi. Huy cho Dũng 13 viên và cho Tuấn 3 viên bi. Vậy Huy còn lại số viên bi là
+ \choice 
+{$31$ viên bi}
+{$16$ viên bi}
+{$34$ viên bi}
+{\True $28$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $44-13-3=28$.}
+\end{ex}
+\begin{ex}
+Mai có 87 viên bi. Mai cho Minh 20 viên và cho Thúy 45 viên bi. Vậy Mai còn lại số viên bi là
+ \choice 
+{$65$ viên bi}
+{\True $22$ viên bi}
+{$67$ viên bi}
+{$112$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $87-20-45=22$.}
+\end{ex}
+\begin{ex}
+Trường có 38 viên bi. Trường cho Phương 7 viên và cho Huy 2 viên bi. Vậy Trường còn lại số viên bi là
+ \choice 
+{$31$ viên bi}
+{\True $29$ viên bi}
+{$9$ viên bi}
+{$33$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $38-7-2=29$.}
+\end{ex}
+\begin{ex}
+Dũng có 67 viên bi. Dũng cho Đức 8 viên và cho Thúy 37 viên bi. Vậy Dũng còn lại số viên bi là
+ \choice 
+{$96$ viên bi}
+{$59$ viên bi}
+{$45$ viên bi}
+{\True $22$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $67-8-37=22$.}
+\end{ex}
+\begin{ex}
+Thu có 85 viên bi. Thu cho Hương 32 viên và cho Đức 6 viên bi. Vậy Thu còn lại số viên bi là
+ \choice 
+{$38$ viên bi}
+{\True $47$ viên bi}
+{$53$ viên bi}
+{$59$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $85-32-6=47$.}
+\end{ex}
+\begin{ex}
+Ngọc có 84 viên bi. Ngọc cho Huy 75 viên và cho Lan 2 viên bi. Vậy Ngọc còn lại số viên bi là
+ \choice 
+{\True $7$ viên bi}
+{$11$ viên bi}
+{$77$ viên bi}
+{$9$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $84-75-2=7$.}
+\end{ex}
+\begin{ex}
+Đức có 45 viên bi. Đức cho Thúy 27 viên và cho Ngọc 2 viên bi. Vậy Đức còn lại số viên bi là
+ \choice 
+{$18$ viên bi}
+{\True $16$ viên bi}
+{$20$ viên bi}
+{$29$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $45-27-2=16$.}
+\end{ex}
+\begin{ex}
+Dũng có 92 viên bi. Dũng cho Hương 1 viên và cho Minh 76 viên bi. Vậy Dũng còn lại số viên bi là
+ \choice 
+{$77$ viên bi}
+{$91$ viên bi}
+{\True $15$ viên bi}
+{$167$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $92-1-76=15$.}
+\end{ex}
+\begin{ex}
+Cường có 98 viên bi. Cường cho Hương 83 viên và cho Quang 13 viên bi. Vậy Cường còn lại số viên bi là
+ \choice 
+{$28$ viên bi}
+{$15$ viên bi}
+{\True $2$ viên bi}
+{$96$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $98-83-13=2$.}
+\end{ex}
+\begin{ex}
+Tuấn có 47 viên bi. Tuấn cho Anh 2 viên và cho Huy 42 viên bi. Vậy Tuấn còn lại số viên bi là
+ \choice 
+{$44$ viên bi}
+{$87$ viên bi}
+{\True $3$ viên bi}
+{$45$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $47-2-42=3$.}
+\end{ex}
+\begin{ex}
+Dũng có 55 viên bi. Dũng cho Trường 8 viên và cho Thu 35 viên bi. Vậy Dũng còn lại số viên bi là
+ \choice 
+{\True $12$ viên bi}
+{$47$ viên bi}
+{$82$ viên bi}
+{$43$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $55-8-35=12$.}
+\end{ex}
+\begin{ex}
+Phương có 97 viên bi. Phương cho Thu 54 viên và cho Dũng 25 viên bi. Vậy Phương còn lại số viên bi là
+ \choice 
+{$68$ viên bi}
+{$79$ viên bi}
+{$43$ viên bi}
+{\True $18$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $97-54-25=18$.}
+\end{ex}
+\begin{ex}
+Anh có 87 viên bi. Anh cho Cường 6 viên và cho Đức 48 viên bi. Vậy Anh còn lại số viên bi là
+ \choice 
+{$54$ viên bi}
+{$81$ viên bi}
+{\True $33$ viên bi}
+{$129$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $87-6-48=33$.}
+\end{ex}
+\begin{ex}
+Hoàng có 94 viên bi. Hoàng cho Thúy 29 viên và cho Huy 34 viên bi. Vậy Hoàng còn lại số viên bi là
+ \choice 
+{$65$ viên bi}
+{\True $31$ viên bi}
+{$99$ viên bi}
+{$63$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $94-29-34=31$.}
+\end{ex}
+\begin{ex}
+Huy có 88 viên bi. Huy cho Cường 4 viên và cho Linh 40 viên bi. Vậy Huy còn lại số viên bi là
+ \choice 
+{$84$ viên bi}
+{$124$ viên bi}
+{\True $44$ viên bi}
+{\True $44$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $88-4-40=44$.}
+\end{ex}
+\begin{ex}
+Tuấn có 53 viên bi. Tuấn cho Huy 13 viên và cho Linh 33 viên bi. Vậy Tuấn còn lại số viên bi là
+ \choice 
+{$46$ viên bi}
+{$40$ viên bi}
+{\True $7$ viên bi}
+{$73$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $53-13-33=7$.}
+\end{ex}
+\begin{ex}
+Anh có 93 viên bi. Anh cho Thúy 27 viên và cho Minh 52 viên bi. Vậy Anh còn lại số viên bi là
+ \choice 
+{\True $14$ viên bi}
+{$118$ viên bi}
+{$79$ viên bi}
+{$66$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $93-27-52=14$.}
+\end{ex}
+\begin{ex}
+Linh có 82 viên bi. Linh cho Trường 7 viên và cho Dũng 69 viên bi. Vậy Linh còn lại số viên bi là
+ \choice 
+{$76$ viên bi}
+{\True $6$ viên bi}
+{$144$ viên bi}
+{$75$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $82-7-69=6$.}
+\end{ex}
+\begin{ex}
+Lan có 97 viên bi. Lan cho Thúy 12 viên và cho Hoàng 67 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{$79$ viên bi}
+{$152$ viên bi}
+{\True $18$ viên bi}
+{$85$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $97-12-67=18$.}
+\end{ex}
+\begin{ex}
+Lan có 69 viên bi. Lan cho Mai 25 viên và cho Đức 4 viên bi. Vậy Lan còn lại số viên bi là
+ \choice 
+{$44$ viên bi}
+{\True $40$ viên bi}
+{$48$ viên bi}
+{$29$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $69-25-4=40$.}
+\end{ex}
+\begin{ex}
+Tuấn có 46 viên bi. Tuấn cho Trường 2 viên và cho Dũng 17 viên bi. Vậy Tuấn còn lại số viên bi là
+ \choice 
+{\True $27$ viên bi}
+{$61$ viên bi}
+{$44$ viên bi}
+{$19$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $46-2-17=27$.}
+\end{ex}
+\begin{ex}
+Anh có 66 viên bi. Anh cho Huy 41 viên và cho Linh 15 viên bi. Vậy Anh còn lại số viên bi là
+ \choice 
+{\True $10$ viên bi}
+{$40$ viên bi}
+{$25$ viên bi}
+{$56$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $66-41-15=10$.}
+\end{ex}
+\begin{ex}
+Thu có 69 viên bi. Thu cho Tuấn 44 viên và cho Mai 24 viên bi. Vậy Thu còn lại số viên bi là
+ \choice 
+{\True $1$ viên bi}
+{$68$ viên bi}
+{$25$ viên bi}
+{$49$ viên bi}
+\loigiai{Số viên bi của Nam còn lại là $69-44-24=1$.}
+\end{ex}
+
+\Closesolutionfile{ans}
+\Closesolutionfile{ansbook}
+\end{document}
+\newpage
+\setcounter{page}{1}
+\begin{center}
+{\bf\Large ĐÁP ÁN}\vspace{12pt}
+\begin{multicols}{10}
+\input{ans/DA}
+\end{multicols}
+\end{center}
+\newpage
+\setcounter{page}{1}
+\begin{center}
+{\bf\Large LỜI GIẢI CHI TIẾT}
+\end{center}
+\input{ans/LG}
+\end{document}

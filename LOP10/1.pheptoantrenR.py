@@ -3,6 +3,11 @@ import random
 so_cau = 50
 
 def begin_ex():
+    """Đây là hàm thêm vào begin ex trong latex
+
+    Returns:
+        thêm vào 1 chuỗi begin{ex}
+    """
     return "\\begin{ex}\n"
 
 def end_ex():
